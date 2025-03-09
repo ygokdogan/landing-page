@@ -10,6 +10,11 @@ ul {
     gap: 16px;
 }
 
+.header a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 
 .body {
     flex: 1;
@@ -76,9 +81,9 @@ ul {
 
 
 .introduction-image {
-    flex: 1;
     background-color: gray;
     height: 200px;
+    width: 480px;
     text-align: center;
     justify-content: center;
 }
